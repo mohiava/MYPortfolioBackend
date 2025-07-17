@@ -9,7 +9,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,  # or ["http://127.0.0.1:5500"] if you want specific origin
+    allow_credentials=True,  # or ["https://my-portfolio-project-ruby.vercel.app"] if you want specific origin
     allow_methods=["*"],
     allow_headers=["*"],
 )
